@@ -1,0 +1,77 @@
+:root {
+	--main-font: 'Source Sans Pro', sans-serif;
+	--secondary-font: 'Poiret One', cursive;
+	--body-font: 'Cabin', sans-serif;
+	--headings-font: 'Herr Von Muellerhoff', cursive;
+	--main-font-color-dark: #252525;
+	--secondary-font-color: #e1b164;
+	--body-font-color: #515151;
+	--white-color: #fff;
+	--dark-bg: #121212;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-family: var(--main-font);
+}
+
+header {
+  padding: 1rem 0;
+  width: 100%;
+  font-family: var(--body-font);
+}
+
+a {
+  color: var(--white-color);
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+.gap-2 {
+  gap: 2rem;
+}
+.gap-4 {
+  gap: 4rem;
+}
+
+.anchor {
+  text-transform: uppercase;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}

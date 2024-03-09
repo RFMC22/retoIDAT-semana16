@@ -1,0 +1,8 @@
+.action-button {
+  color: var(--secondary-font-color);
+  text-decoration: underline;
+  padding-bottom: 1rem;
+  font-family: var(--body-font);
+  text-transform: uppercase;
+  font-size: .8rem;
+}

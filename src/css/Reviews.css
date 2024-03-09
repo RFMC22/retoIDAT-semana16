@@ -1,0 +1,65 @@
+.reviews {
+  background-color: var(--dark-bg);
+  padding: 2rem 0;
+  height: auto;
+}
+h4 {
+  color: var(--white-color);
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+form {
+  width: 200px;
+  align-self: flex-start;
+}
+
+#name,
+#review,
+#submit {
+  width: 100%;
+  padding: 0.7rem .6rem;
+  border-radius: .3rem;
+  outline: none;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+
+
+/* review */
+.review {
+  border: 1px solid var(--white-color);
+  width: 300px;
+  padding: 0.5rem;
+  border-radius: .3rem;
+}
+.review img {
+  width: 80px;
+}
+.review .delete {
+  color: var(--white-color);
+  cursor: pointer;
+}
+.comment {
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+  color: var(--white-color);
+  font-weight: 100;
+  font-family: var(--body-font);
+}
+.person {
+  font-family: var(--body-font);
+  color: var(--white-color);
+  text-align: right;
+  font-size: .8rem;
+}
+
+.content-review {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  flex: 1;
+  gap: 1rem;
+}
